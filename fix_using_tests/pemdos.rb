@@ -4,7 +4,7 @@ def snake_it_up(string)
     10.times do
       string = "s" + string 
     end
-    return string
+    string
   else
     string
   end
